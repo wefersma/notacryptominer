@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "notacryptominer",
+  "version": "1.0.0",
+  "name": "NotACryptoMiner",
+  "description": "Tut absolut nichts. Ehrlich.",
+  "authors": ["Manuel"],
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["de.manuel.notacryptominer.NotACryptoMiner"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
